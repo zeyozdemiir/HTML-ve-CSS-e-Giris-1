@@ -1,0 +1,123 @@
+* {
+  color: #3c373b;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Gaegu';
+  margin: 20px 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Gaegu';
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-size: 30px;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'roboto', sans-serif;
+  padding: 10px;
+  line-height: 1.4;
+  margin: 0px 10px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+ul {
+  margin: 0 10px;
+  padding: 0;
+  list-style-type: none;
+  line-height: 150%;
+}
+
+.left-img img {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+}
+
+.right-img img {
+  width: 200px;
+  float: right;
+  margin-left: 20px;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+  display: block;
+}
+
+header nav {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  align-content: stretch;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+header nav a {
+  margin: auto auto;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  text-decoration: none;
+  width: 10%;
+  background-color: #e79947;
+  color: white;
+  text-align: center;
+}
+
+header nav a:hover {
+  background: white;
+  color: #e79947;
+}
+
+.iletisim-section {
+  border-bottom: 1px dashed black;
+  padding: 20px 0;
+}
+
+.iletisim-section p {
+  padding: 5px 0px;
+}
+
+footer {
+  width: 100%;
+  background: #e79947;
+  border-top: 1px dashed black;
+  text-align: center;
+}
+
+footer a {
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
+
+footer nav a:hover {
+  color: white;
+}
+
+footer .copyright {
+  padding: 20px 0;
+  text-align: center;
+}
